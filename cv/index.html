@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Font */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+        /* Icon */
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            align-items: center;
+            font-family: "Lato", sans-serif;
+        }
+
+        ul,
+        a {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        h1#header {
+            padding: 20px 0;
+            margin-bottom: 2rem;
+            text-align: center;
+            background-color: #252525;
+            color: white;
+        }
+
+        main {
+            padding: 0 200px;
+        }
+
+        #my-photo {
+            height: 250px;
+            margin-bottom: 1rem;
+        }
+
+        #name {
+            margin-bottom: 2rem;
+        }
+
+        fieldset {
+            padding: 10px 20px 20px;
+        }
+
+        table {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        table tr th {
+            text-align: left;
+        }
+
+        table tr td {
+            padding: 3px 10px 0 0;
+        }
+
+        footer {
+            background-color: #252525;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 2rem;
+        }
+
+        .d-grid {
+            display: grid;
+            align-items: start;
+            justify-content: center;
+            gap: 5rem;
+            grid-template-columns: auto auto auto;
+        }
+
+        a {
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .link {
+            border: 1px solid #212121;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #212121;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .link:hover {
+            border: 1px solid #ffc107;
+            background-color: #ffc107;
+        }
+
+        .cards {
+            padding-top: 10px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+        }
+
+        .cards img {
+            width: 50px;
+            border: 1px solid #252525;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        @media screen and (max-width: 991px) {
+            main {
+                padding: 0 100px;
+            }
+        }
+
+        @media screen and (max-width: 425px) {
+            main {
+                padding: 0 25px;
+            }
+
+            .d-grid {
+                gap: 1rem;
+                grid-template-columns: 100%;
+            }
+
+            .cards {
+                grid-template-columns: auto auto auto auto auto;
+            }
+        }
+    </style>
+    <title>CV Rakha Zahran Nurfirmansyah</title>
+</head>
+
+<body>
+
+    <div class="bgcolor-primary">
+        <h1 id="header">Curriculum Vitae</h1>
+    </div>
+
+    <main>
+
+        <center>
+            <img id="my-photo" src="V2.png" alt="Rakha Zahran Nurfirmansyah">
+
+            <!-- <h2 id="name">Rakha Zahran Nurfirmansyah</h2> -->
+        </center>
+
+        <div class="biodata">
+
+            <h3 style="font-weight: 700; margin-bottom: 10px;">Biodata</h3>
+            <p>
+                Halo perkenalkan nama saya Rakha Zahran Nurfirmansyah, untuk saat ini saya berstatus sebagai Mahasiswa
+                di STT Terpadu Nurul Fikri tahun angkatan 2021 dari Prodi Teknik Informatika.
+            </p>
+            <hr width="50%" style="margin-top: 10px;">
+
+            <table width="100%" cellspacing="1">
+                <tr>
+                    <th>Nama Lengkap</th>
+                    <td>:</td>
+                    <td>Rakha Zahran Nurfirmansyah</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>:</td>
+                    <td>Mahasiswa</td>
+                </tr>
+                <tr>
+                    <th>Tempat Lahir</th>
+                    <td>:</td>
+                    <td>Jakarta</td>
+                </tr>
+                <tr>
+                    <th>Tanggal Lahir</th>
+                    <td>:</td>
+                    <td>26 December 2002</td>
+                </tr>
+                <tr>
+                    <th>Jenis Kelamin</th>
+                    <td>:</td>
+                    <td>Laki - Laki</td>
+                </tr>
+                <tr>
+                    <th>Agama</th>
+                    <td>:</td>
+                    <td>Islam</td>
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <td>:</td>
+                    <td>Jalan Tengki No 30 Rt 010 Rw 003 Kelurahan Cipayung Kecamatan Cipayung, <br> Jakarta Timur
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hobi</th>
+                    <td>:</td>
+                    <td>Olahraga | Ngoding | Design</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="d-grid">
+
+            <div class="grid-item">
+                <h3 style="font-weight: 700; margin-bottom: 10px;">Skills</h3>
+                <hr>
+
+                <div class="cards">
+                    <img src="html (1).png" alt="HTML 5">
+                    <img src="css.png" alt="CSS">
+                    <img src="php.png" alt="PHP">
+                    <img src="photoshop.png" alt="Photoshop">
+                    <img src="illustrator.png" alt="Illustrator">
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <h3 style="font-weight: 700; margin-bottom: 10px;">Kontak</h3>
+                <hr>
+
+                <div class="lists">
+                    <a href="mailto:rakh21254ti@student.nurulfikri.ac.id" class="link"><i class="bi bi-envelope"></i> Gmail</a>
+                    <a href="https://instagram.com/rakha_zan" class="link"><i class="bi bi-instagram"></i> Instagram</a>
+                    <a href="https://www.linkedin.com/in/rakha-zahran-nurfirmansyah" class="link"><i
+                            class="bi bi-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <h3 style="font-weight: 700; margin-bottom: 10px;">Other</h3>
+                <hr>
+
+                <div class="lists">
+                    <a href="https://rakhazan.github.io/My-Portofolio/" target="_blank" class="link">My Portofolio</a>
+                    <a href="https://github.com/RakhaZaN" target="_blank" class="link">Github</a>
+                    <a href="https://dribbble.com/Rakha_Firmansyah" target="_blank" class="link">Dribbble</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <small>© Copyright 2021 | Rakha Zahran Nurfirmansyah</small>
+    </footer>
+
+</body>
+
+</html>
