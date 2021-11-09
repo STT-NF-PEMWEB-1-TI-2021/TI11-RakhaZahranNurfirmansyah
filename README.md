@@ -5,3 +5,4 @@
 * Curriculum Vitae
 * Checkout Cart
 * Pizza Form
+* Layout
